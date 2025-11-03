@@ -10,3 +10,4 @@ RUN chmod +x /usr/local/bin/wisecow.sh
 EXPOSE 4499
 
 CMD ["/usr/local/bin/wisecow.sh"]
+}lllkll,.
