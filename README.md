@@ -10,7 +10,7 @@ Overview
 
 Wisecow is a web application deployed using a modern DevOps workflow. The deployment pipeline automates build, Docker image creation, artifact storage, and Kubernetes deployment using Minikube.
 
-CI/CD Pipeline Steps:
+CI/CD Pipeline Steps: 
 
 * Checkout Code
 
