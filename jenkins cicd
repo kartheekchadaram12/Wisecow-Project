@@ -6,7 +6,7 @@ pipeline {
         DOCKER_CREDENTIALS = 'dockerhub-cred'       // Jenkins Docker Hub credentials ID
         DOCKER_IMAGE       = 'rateshivakumar/wisecow'  // Docker Hub repo
         DOCKERFILE_PATH    = '.'                     // Repo root where Dockerfile exists
-        KUBE_DEPLOY_FILE   = 'wisecow-deploy.yaml'  // Kubernetes deployment YAML
+        KUBE_DEPLOY_FILE   = 'wisecow-deploy.yaml'  // Kubernetes deployment YAML 
     }
 
     stages {
