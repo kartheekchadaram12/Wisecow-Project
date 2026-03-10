@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SOURCE="/home/ubuntu/myfolder"
+DEST="ubuntu@10.0.0.20:/backup"
+LOG="/home/ubuntu/backup.log"
+
+echo "Backup started at $(date)" >> $LOG
+
+rsync -avz $SOURCE $DEST >> $LOG 2>&1
+
+if [ $? -eq 0 ]; then
+  echo "Backup SUCCESS at $(date)" >> $LOG
+else
+  echo "Backup FAILED at $(date)" >> $LOG
+fi
